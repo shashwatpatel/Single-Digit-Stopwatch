@@ -1,0 +1,40 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Thu May 02 12:00:48 2019
+# Process ID: 9912
+# Current directory: C:/Users/ee-student/Downloads/Lab 5-20190502T185932Z-001/Lab 5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11608 C:\Users\ee-student\Downloads\Lab 5-20190502T185932Z-001\Lab 5\Lab 5.xpr
+# Log file: C:/Users/ee-student/Downloads/Lab 5-20190502T185932Z-001/Lab 5/vivado.log
+# Journal file: C:/Users/ee-student/Downloads/Lab 5-20190502T185932Z-001/Lab 5\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project -part xc7a35tifgg484-1L {C:/Users/ee-student/Downloads/Lab 5-20190502T185932Z-001/Lab 5/Lab 5.xpr}
+set_property board_part digilentinc.com:nexys4_ddr:part0:1.1 [current_project]
+set_property target_language VHDL [current_project]
+add_files -fileset constrs_1 -norecurse C:/Users/ee-student/Downloads/Nexys4DDR_Master.xdc
+launch_runs synth_1
+wait_on_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/ee-student/Downloads/Lab 5-20190502T185932Z-001/Lab 5/Lab 5.runs/impl_1/stopwatch.bit} [lindex [get_hw_devices xc7a100t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROGRAM.FILE {C:/Users/ee-student/Downloads/Lab 5-20190502T185932Z-001/Lab 5/Lab 5.runs/impl_1/stopwatch.bit} [lindex [get_hw_devices xc7a100t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a100t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROGRAM.FILE {C:/Users/ee-student/Downloads/Lab 5-20190502T185932Z-001/Lab 5/Lab 5.runs/impl_1/stopwatch.bit} [lindex [get_hw_devices xc7a100t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a100t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]

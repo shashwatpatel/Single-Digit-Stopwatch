@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Thu May 02 13:03:17 2019
+# Process ID: 6016
+# Current directory: C:/Users/ee-student/Downloads/Lab 5-20190502T185932Z-001/Lab 5/Lab 5.runs/synth_1
+# Command line: vivado.exe -log stopwatch.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source stopwatch.tcl
+# Log file: C:/Users/ee-student/Downloads/Lab 5-20190502T185932Z-001/Lab 5/Lab 5.runs/synth_1/stopwatch.vds
+# Journal file: C:/Users/ee-student/Downloads/Lab 5-20190502T185932Z-001/Lab 5/Lab 5.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source stopwatch.tcl -notrace

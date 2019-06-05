@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Thu May 02 13:55:22 2019">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="cb7ca5b5e2e24d4a95add7e06c43a41a" type="ProjectID"/>
+<property name="ProjectIteration" value="4" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="AddSources" value="6" type="JavaHandler"/>
+<property name="AutoConnectTarget" value="1" type="JavaHandler"/>
+<property name="LaunchProgramFpga" value="2" type="JavaHandler"/>
+<property name="NewProject" value="1" type="JavaHandler"/>
+<property name="OpenHardwareManager" value="4" type="JavaHandler"/>
+<property name="OpenRecentTarget" value="1" type="JavaHandler"/>
+<property name="ProgramDevice" value="2" type="JavaHandler"/>
+<property name="ProjectSettingsCmdHandler" value="1" type="JavaHandler"/>
+<property name="RunBitgen" value="3" type="JavaHandler"/>
+<property name="RunSynthesis" value="2" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="AddSrcWizard_SPECIFY_OR_CREATE_CONSTRAINT_FILES" value="1" type="GuiResourceData"/>
+<property name="BaseDialog_CANCEL" value="6" type="GuiResourceData"/>
+<property name="BaseDialog_OK" value="3" type="GuiResourceData"/>
+<property name="BaseDialog_YES" value="3" type="GuiResourceData"/>
+<property name="CLK_DIV.vhd, 125, 290" value="1" type="GuiResourceData"/>
+<property name="CLK_DIV.vhd, 125, 290, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="CLK_DIV.vhd, 128, 568" value="1" type="GuiResourceData"/>
+<property name="CLK_DIV.vhd, 132, 295" value="1" type="GuiResourceData"/>
+<property name="CLK_DIV.vhd, 140, 383" value="1" type="GuiResourceData"/>
+<property name="CLK_DIV.vhd, 140, 383, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="CLK_DIV.vhd, 143, 384" value="1" type="GuiResourceData"/>
+<property name="CLK_DIV.vhd, 143, 384, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="CLK_DIV.vhd, 155, 559" value="1" type="GuiResourceData"/>
+<property name="CLK_DIV.vhd, 169, 501" value="1" type="GuiResourceData"/>
+<property name="CLK_DIV.vhd, 174, 503" value="1" type="GuiResourceData"/>
+<property name="CLK_DIV.vhd, 187, 485" value="1" type="GuiResourceData"/>
+<property name="CLK_DIV.vhd, 187, 485, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="CLK_DIV.vhd, 195, 533" value="1" type="GuiResourceData"/>
+<property name="CLK_DIV.vhd, 198, 508" value="1" type="GuiResourceData"/>
+<property name="CLK_DIV.vhd, 199, 530" value="1" type="GuiResourceData"/>
+<property name="CLK_DIV.vhd, 224, 534" value="1" type="GuiResourceData"/>
+<property name="CLK_DIV.vhd, 23, 406" value="1" type="GuiResourceData"/>
+<property name="CLK_DIV.vhd, 241, 551" value="1" type="GuiResourceData"/>
+<property name="CLK_DIV.vhd, 246, 389" value="1" type="GuiResourceData"/>
+<property name="CLK_DIV.vhd, 294, 227" value="1" type="GuiResourceData"/>
+<property name="CLK_DIV.vhd, 299, 140" value="1" type="GuiResourceData"/>
+<property name="CLK_DIV.vhd, 335, 389" value="1" type="GuiResourceData"/>
+<property name="CLK_DIV.vhd, 38, 348" value="1" type="GuiResourceData"/>
+<property name="CLK_DIV.vhd, 38, 348, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="CLK_DIV.vhd, 388, 476" value="1" type="GuiResourceData"/>
+<property name="CLK_DIV.vhd, 45, 403" value="1" type="GuiResourceData"/>
+<property name="CLK_DIV.vhd, 56, 569" value="1" type="GuiResourceData"/>
+<property name="CLK_DIV.vhd, 62, 74" value="1" type="GuiResourceData"/>
+<property name="CLK_DIV.vhd, 65, 520" value="1" type="GuiResourceData"/>
+<property name="CLK_DIV.vhd, 75, 299" value="1" type="GuiResourceData"/>
+<property name="CLK_DIV.vhd, 75, 299, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="CLK_DIV.vhd, 76, 481" value="1" type="GuiResourceData"/>
+<property name="CLK_DIV.vhd, 77, 564" value="1" type="GuiResourceData"/>
+<property name="CLK_DIV.vhd, 8, 522" value="1" type="GuiResourceData"/>
+<property name="CLK_DIV.vhd, 80, 485" value="1" type="GuiResourceData"/>
+<property name="CLK_DIV.vhd, 90, 75" value="1" type="GuiResourceData"/>
+<property name="CLK_DIV.vhd, 90, 75, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="CLK_DIV.vhd, 91, 93" value="1" type="GuiResourceData"/>
+<property name="CLK_DIV.vhd, 91, 93, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="CmdMsgDialog_OK" value="2" type="GuiResourceData"/>
+<property name="ConstraintsChooserPanel_ADD_FILES" value="1" type="GuiResourceData"/>
+<property name="FINISH, Finish" value="4" type="GuiResourceData"/>
+<property name="FileSetPanel_FILE_SET_PANEL_TREE" value="13" type="GuiResourceData"/>
+<property name="FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE" value="10" type="GuiResourceData"/>
+<property name="MsgTreePanel_MESSAGE_VIEW_TREE" value="1" type="GuiResourceData"/>
+<property name="NEXT, Next " value="4" type="GuiResourceData"/>
+<property name="PACommandNames_AUTO_CONNECT_TARGET" value="1" type="GuiResourceData"/>
+<property name="PACommandNames_GENERAL_SETTINGS" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, CLK_DIV" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, controller" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, decoder" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, stopwatch" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CreateSrcFileDialog_FILE_TYPE, VHDL, 3" value="4" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS,  ; in ; false ; 0 ; 0, 0, (String" value="3" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS,  ; in ; false ; 0 ; 0, 1, (String" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS,  ; in ; false ; 0 ; 0, 6, (String" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, 6, 5, MSB, 3" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, B1, 0, Port Name, 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, B2, 1, Port Name, 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, B3, 2, Port Name, 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, B4, 3, Port Name, 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, CLK, 0, Port Name, 0" value="2" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, CLK_OUT ; in ; false ; 0 ; 0, 2, in, 1" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, CLK_OUT, 2, Port Name, 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, Clk, 4, Port Name, 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, Inc, 3, Port Name, 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, RST, 1, Port Name, 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, Run ; in ; false ; 0 ; 0, 2, in, 1" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, Run ; in ; false ; 0 ; 0, 5, (String" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, Run ; in ; false ; 0 ; 0, 5, in, 1" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, Run ; out ; false ; 0 ; 0, 2, Run, 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, Run, 2, Port Name, 0" value="2" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, Run, 5, Port Name, 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, Start, 0, Port Name, 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, Stop, 1, Port Name, 0" value="3" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, X ; in ; false ; 0 ; 0, 5, in, 1" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, X ; out ; false ; 0 ; 0, 5, false, 2" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, X ; out ; true ; 0 ; 0, 5, 0, 3" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, X, 5, Port Name, 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, clk, 4, Port Name, 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, in, 0, Direction, 1" value="2" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, in, 2, Direction, 1" value="3" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, in, 4, Direction, 1" value="2" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, in, 5, Direction, 1" value="4" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, out, 2, Direction, 1" value="2" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, out, 5, Direction, 1" value="2" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, rst ; in ; false ; 0 ; 0, 4, (String" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, rst, 5, Port Name, 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, CLK_DIV - Behavioral (CLK_DIV.vhd" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, controller - Behavioral (controller.vhd" value="3" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, counter - Behavioral (counter.vhd" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, decoder - Behavioral (decoder.vhd" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, stopwatch - Behavioral (stopwatch.vhd" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Project Manager, Add Sources], 2, false" value="4" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SrcChooserPanel_CREATE_FILE, Create File" value="4" type="GuiResourceData"/>
+<property name="PartChooser_BOARDS" value="2" type="GuiResourceData"/>
+<property name="PartChooser_PRODUCT_CHOOSER" value="3" type="GuiResourceData"/>
+<property name="PartChooser_RESET_ALL_FILTERS" value="4" type="GuiResourceData"/>
+<property name="ProgramFpgaDialog_PROGRAM" value="2" type="GuiResourceData"/>
+<property name="ProjectSettingsGeneralPage_CHOOSE_DEVICE_FOR_YOUR_PROJECT" value="1" type="GuiResourceData"/>
+<property name="ProjectSettingsGeneralPage_TARGET_LANGUAGE" value="1" type="GuiResourceData"/>
+<property name="RDIResource.AbstractCombinedPanel_REMOVE_SELECTED_ELEMENTS, Remove" value="3" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_OK, OK" value="8" type="GuiResourceData"/>
+<property name="RDIResourceCommand.RDICommands_SAVE_FILE, (String" value="4" type="GuiResourceData"/>
+<property name="UpgradePartDialog_SELECT_NEW_PART_IN_CURRENT_INSTALLATION" value="1" type="GuiResourceData"/>
+<property name="controller.vhd, 0, 433" value="1" type="GuiResourceData"/>
+<property name="controller.vhd, 0, 518" value="1" type="GuiResourceData"/>
+<property name="controller.vhd, 1, 443" value="1" type="GuiResourceData"/>
+<property name="controller.vhd, 102, 530" value="1" type="GuiResourceData"/>
+<property name="controller.vhd, 11, 445" value="1" type="GuiResourceData"/>
+<property name="controller.vhd, 116, 501" value="1" type="GuiResourceData"/>
+<property name="controller.vhd, 130, 508" value="1" type="GuiResourceData"/>
+<property name="controller.vhd, 133, 527" value="1" type="GuiResourceData"/>
+<property name="controller.vhd, 15, 513" value="1" type="GuiResourceData"/>
+<property name="controller.vhd, 153, 560" value="1" type="GuiResourceData"/>
+<property name="controller.vhd, 153, 573" value="1" type="GuiResourceData"/>
+<property name="controller.vhd, 182, 475" value="1" type="GuiResourceData"/>
+<property name="controller.vhd, 182, 487" value="1" type="GuiResourceData"/>
+<property name="controller.vhd, 182, 560" value="1" type="GuiResourceData"/>
+<property name="controller.vhd, 185, 472" value="1" type="GuiResourceData"/>
+<property name="controller.vhd, 188, 577" value="1" type="GuiResourceData"/>
+<property name="controller.vhd, 195, 494" value="1" type="GuiResourceData"/>
+<property name="controller.vhd, 201, 568" value="1" type="GuiResourceData"/>
+<property name="controller.vhd, 202, 580" value="1" type="GuiResourceData"/>
+<property name="controller.vhd, 204, 567" value="1" type="GuiResourceData"/>
+<property name="controller.vhd, 225, 465" value="1" type="GuiResourceData"/>
+<property name="controller.vhd, 233, 575" value="1" type="GuiResourceData"/>
+<property name="controller.vhd, 24, 535" value="1" type="GuiResourceData"/>
+<property name="controller.vhd, 33, 564" value="1" type="GuiResourceData"/>
+<property name="controller.vhd, 346, 144" value="1" type="GuiResourceData"/>
+<property name="controller.vhd, 369, 127" value="1" type="GuiResourceData"/>
+<property name="controller.vhd, 403, 578" value="1" type="GuiResourceData"/>
+<property name="controller.vhd, 45, 570" value="1" type="GuiResourceData"/>
+<property name="controller.vhd, 478, 531" value="1" type="GuiResourceData"/>
+<property name="controller.vhd, 48, 460" value="1" type="GuiResourceData"/>
+<property name="controller.vhd, 57, 569" value="1" type="GuiResourceData"/>
+<property name="controller.vhd, 67, 512" value="1" type="GuiResourceData"/>
+<property name="controller.vhd, 71, 483" value="1" type="GuiResourceData"/>
+<property name="controller.vhd, 77, 261" value="1" type="GuiResourceData"/>
+<property name="controller.vhd, 82, 261" value="1" type="GuiResourceData"/>
+<property name="controller.vhd, 90, 550" value="1" type="GuiResourceData"/>
+<property name="counter.vhd, 155, 327" value="1" type="GuiResourceData"/>
+<property name="counter.vhd, 174, 197" value="1" type="GuiResourceData"/>
+<property name="counter.vhd, 462, 228" value="1" type="GuiResourceData"/>
+<property name="counter.vhd, 70, 299" value="1" type="GuiResourceData"/>
+<property name="counter.vhd, 73, 469" value="1" type="GuiResourceData"/>
+<property name="counter.vhd, 74, 234" value="1" type="GuiResourceData"/>
+<property name="counter.vhd, 83, 299" value="2" type="GuiResourceData"/>
+<property name="decoder.vhd, 170, 486" value="1" type="GuiResourceData"/>
+<property name="decoder.vhd, 235, 139" value="1" type="GuiResourceData"/>
+<property name="decoder.vhd, 560, 170" value="1" type="GuiResourceData"/>
+<property name="decoder.vhd, 76, 112" value="1" type="GuiResourceData"/>
+<property name="stopwatch.vhd, 105, 527" value="1" type="GuiResourceData"/>
+<property name="stopwatch.vhd, 108, 485" value="1" type="GuiResourceData"/>
+<property name="stopwatch.vhd, 119, 575" value="1" type="GuiResourceData"/>
+<property name="stopwatch.vhd, 137, 522" value="1" type="GuiResourceData"/>
+<property name="stopwatch.vhd, 140, 493" value="1" type="GuiResourceData"/>
+<property name="stopwatch.vhd, 145, 471" value="1" type="GuiResourceData"/>
+<property name="stopwatch.vhd, 147, 502" value="1" type="GuiResourceData"/>
+<property name="stopwatch.vhd, 154, 554" value="1" type="GuiResourceData"/>
+<property name="stopwatch.vhd, 159, 467" value="1" type="GuiResourceData"/>
+<property name="stopwatch.vhd, 160, 569" value="1" type="GuiResourceData"/>
+<property name="stopwatch.vhd, 164, 466" value="1" type="GuiResourceData"/>
+<property name="stopwatch.vhd, 164, 469" value="1" type="GuiResourceData"/>
+<property name="stopwatch.vhd, 164, 469, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="stopwatch.vhd, 186, 549" value="1" type="GuiResourceData"/>
+<property name="stopwatch.vhd, 192, 459" value="1" type="GuiResourceData"/>
+<property name="stopwatch.vhd, 204, 552" value="1" type="GuiResourceData"/>
+<property name="stopwatch.vhd, 209, 509" value="1" type="GuiResourceData"/>
+<property name="stopwatch.vhd, 209, 563" value="1" type="GuiResourceData"/>
+<property name="stopwatch.vhd, 214, 502" value="1" type="GuiResourceData"/>
+<property name="stopwatch.vhd, 224, 228" value="1" type="GuiResourceData"/>
+<property name="stopwatch.vhd, 235, 467" value="1" type="GuiResourceData"/>
+<property name="stopwatch.vhd, 239, 456" value="1" type="GuiResourceData"/>
+<property name="stopwatch.vhd, 265, 470" value="1" type="GuiResourceData"/>
+<property name="stopwatch.vhd, 265, 470, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="stopwatch.vhd, 266, 472" value="1" type="GuiResourceData"/>
+<property name="stopwatch.vhd, 3, 540" value="1" type="GuiResourceData"/>
+<property name="stopwatch.vhd, 308, 202" value="1" type="GuiResourceData"/>
+<property name="stopwatch.vhd, 311, 499" value="1" type="GuiResourceData"/>
+<property name="stopwatch.vhd, 321, 513" value="1" type="GuiResourceData"/>
+<property name="stopwatch.vhd, 33, 549" value="1" type="GuiResourceData"/>
+<property name="stopwatch.vhd, 363, 472" value="1" type="GuiResourceData"/>
+<property name="stopwatch.vhd, 369, 482" value="1" type="GuiResourceData"/>
+<property name="stopwatch.vhd, 378, 494" value="1" type="GuiResourceData"/>
+<property name="stopwatch.vhd, 388, 532" value="1" type="GuiResourceData"/>
+<property name="stopwatch.vhd, 42, 514" value="1" type="GuiResourceData"/>
+<property name="stopwatch.vhd, 43, 64" value="1" type="GuiResourceData"/>
+<property name="stopwatch.vhd, 440, 183" value="1" type="GuiResourceData"/>
+<property name="stopwatch.vhd, 45, 96" value="1" type="GuiResourceData"/>
+<property name="stopwatch.vhd, 46, 435" value="1" type="GuiResourceData"/>
+<property name="stopwatch.vhd, 50, 517" value="1" type="GuiResourceData"/>
+<property name="stopwatch.vhd, 539, 462" value="1" type="GuiResourceData"/>
+<property name="stopwatch.vhd, 539, 518" value="1" type="GuiResourceData"/>
+<property name="stopwatch.vhd, 55, 184" value="1" type="GuiResourceData"/>
+<property name="stopwatch.vhd, 55, 61" value="1" type="GuiResourceData"/>
+<property name="stopwatch.vhd, 55, 61, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="stopwatch.vhd, 56, 566" value="1" type="GuiResourceData"/>
+<property name="stopwatch.vhd, 56, 566, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="stopwatch.vhd, 57, 115" value="1" type="GuiResourceData"/>
+<property name="stopwatch.vhd, 6, 544" value="1" type="GuiResourceData"/>
+<property name="stopwatch.vhd, 62, 571" value="1" type="GuiResourceData"/>
+<property name="stopwatch.vhd, 62, 571, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="stopwatch.vhd, 67, 537" value="1" type="GuiResourceData"/>
+<property name="stopwatch.vhd, 69, 432" value="1" type="GuiResourceData"/>
+<property name="stopwatch.vhd, 70, 71" value="1" type="GuiResourceData"/>
+<property name="stopwatch.vhd, 71, 109" value="1" type="GuiResourceData"/>
+<property name="stopwatch.vhd, 71, 112" value="1" type="GuiResourceData"/>
+<property name="stopwatch.vhd, 71, 552" value="1" type="GuiResourceData"/>
+<property name="stopwatch.vhd, 73, 92" value="1" type="GuiResourceData"/>
+<property name="stopwatch.vhd, 74, 457" value="1" type="GuiResourceData"/>
+<property name="stopwatch.vhd, 74, 540" value="1" type="GuiResourceData"/>
+<property name="stopwatch.vhd, 75, 533" value="1" type="GuiResourceData"/>
+<property name="stopwatch.vhd, 77, 482" value="1" type="GuiResourceData"/>
+<property name="stopwatch.vhd, 77, 517" value="1" type="GuiResourceData"/>
+<property name="stopwatch.vhd, 77, 555" value="1" type="GuiResourceData"/>
+<property name="stopwatch.vhd, 77, 567" value="1" type="GuiResourceData"/>
+<property name="stopwatch.vhd, 77, 567, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="stopwatch.vhd, 78, 497" value="1" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="2" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="1" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>

@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Sun Apr 28 19:26:04 2019
+# Process ID: 8412
+# Current directory: C:/Users/srpat/Downloads/Lab 5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6044 C:\Users\srpat\Downloads\Lab 5\Lab 5.xpr
+# Log file: C:/Users/srpat/Downloads/Lab 5/vivado.log
+# Journal file: C:/Users/srpat/Downloads/Lab 5\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/srpat/Downloads/Lab 5/Lab 5.xpr}
+update_compile_order -fileset sources_1
